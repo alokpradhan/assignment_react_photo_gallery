@@ -1,3 +1,5 @@
+import React from 'react'
+
 // this is a giant JSON object you have received back from the Instagram API
 // Use it for good, solely on the front end, to create a photo gallery widget!
 
@@ -148,7 +150,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11934634_844560522259226_320398962_n.jpg",
+          "url": "https://images.pexels.com/photos/714023/pexels-photo-714023.jpeg",
           "width": 640,
           "height": 640
         }
@@ -336,7 +338,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/sh0.08/e35/11931191_1638017563150835_247280115_n.jpg",
+          "url": "https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg",
           "width": 640,
           "height": 640
         }
@@ -511,7 +513,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s480x480/e35/11918031_950707525024218_1019529226_n.jpg",
+          "url": "https://images.pexels.com/photos/688559/pexels-photo-688559.jpeg",
           "width": 480,
           "height": 480
         }
@@ -692,7 +694,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11371029_774513175991219_48279618_n.jpg",
+          "url": "https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg",
           "width": 640,
           "height": 640
         }
@@ -873,7 +875,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11881743_1484550645174360_1894197779_n.jpg",
+          "url": "https://images.pexels.com/photos/358423/pexels-photo-358423.jpeg",
           "width": 640,
           "height": 640
         }
@@ -1048,7 +1050,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11881684_1167550063271743_1623982216_n.jpg",
+          "url": "https://images.pexels.com/photos/1431762/pexels-photo-1431762.jpeg",
           "width": 640,
           "height": 640
         }
@@ -1229,7 +1231,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/sh0.08/e35/11931050_1070760386270350_55268173_n.jpg",
+          "url": "https://images.pexels.com/photos/1427110/pexels-photo-1427110.jpeg",
           "width": 640,
           "height": 640
         }
@@ -1399,7 +1401,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/sh0.08/e35/11925842_1490200057962711_519716219_n.jpg",
+          "url": "https://images.pexels.com/photos/10678/road-travel-fence-empty-10678.jpg",
           "width": 640,
           "height": 640
         }
@@ -1608,7 +1610,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11887267_883806931687447_761893927_n.jpg",
+          "url": "https://images.pexels.com/photos/68470/pexels-photo-68470.jpeg",
           "width": 640,
           "height": 640
         }
@@ -1792,7 +1794,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11856769_1535457013376392_289632007_n.jpg",
+          "url": "https://images.pexels.com/photos/171940/pexels-photo-171940.jpeg",
           "width": 640,
           "height": 640
         }
@@ -1960,7 +1962,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11909922_918180431578254_62598068_n.jpg",
+          "url": "https://images.pexels.com/photos/683929/pexels-photo-683929.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2118,7 +2120,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11849064_830971917010695_901273990_n.jpg",
+          "url": "https://images.pexels.com/photos/371649/pexels-photo-371649.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2286,7 +2288,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11326558_880130825368609_1369631963_n.jpg",
+          "url": "https://images.pexels.com/photos/940916/pexels-photo-940916.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2448,7 +2450,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11809737_1643371035911563_1479489724_n.jpg",
+          "url": "https://images.pexels.com/photos/929606/pexels-photo-929606.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2635,7 +2637,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11809665_523387214482524_2093629807_n.jpg",
+          "url": "https://images.pexels.com/photos/1436119/pexels-photo-1436119.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2808,7 +2810,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11917800_992767424101999_462846115_n.jpg",
+          "url": "https://images.pexels.com/photos/268694/pexels-photo-268694.jpeg",
           "width": 640,
           "height": 640
         }
@@ -2976,7 +2978,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/11910019_868350999907695_789953391_n.jpg",
+          "url": "https://images.pexels.com/photos/728834/pexels-photo-728834.jpeg",
           "width": 640,
           "height": 640
         }
@@ -3157,7 +3159,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11849107_1605714063049356_1055606968_n.jpg",
+          "url": "https://images.pexels.com/photos/1438248/pexels-photo-1438248.jpeg",
           "width": 640,
           "height": 640
         }
@@ -3341,7 +3343,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11887294_1478439649145562_1751119788_n.jpg",
+          "url": "https://images.pexels.com/photos/1236504/pexels-photo-1236504.jpeg",
           "width": 640,
           "height": 640
         }
@@ -3525,7 +3527,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/sh0.08/e35/11934833_902583763160955_411165628_n.jpg",
+          "url": "https://images.pexels.com/photos/9688/camera-vintage-bokeh-analog.jpg",
           "width": 640,
           "height": 640
         }
@@ -3693,7 +3695,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s640x640/sh0.08/e35/11875415_1056101737773400_442807512_n.jpg",
+          "url": "https://images.pexels.com/photos/1090551/pexels-photo-1090551.jpeg",
           "width": 640,
           "height": 640
         }
@@ -3863,7 +3865,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11934589_1627246994200138_1256902915_n.jpg",
+          "url": "https://images.pexels.com/photos/248460/pexels-photo-248460.jpeg",
           "width": 640,
           "height": 640
         }
@@ -4031,7 +4033,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/sh0.08/e35/11821146_913780491992853_1958672698_n.jpg",
+          "url": "https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg",
           "width": 640,
           "height": 640
         }
@@ -4202,7 +4204,7 @@ const instagramResponse = {
           "height": 150
         },
         "standard_resolution": {
-          "url": "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s480x480/e35/11856836_1722265254669037_2102555413_n.jpg",
+          "url": "https://images.pexels.com/photos/1085695/pexels-photo-1085695.jpeg",
           "width": 480,
           "height": 480
         }
@@ -4243,3 +4245,5 @@ const instagramResponse = {
     }
   ]
 }
+
+export default instagramResponse
