@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import instagramResponse from '../photos';
+import instagramResponse from '../photos'
+import PhotoPanel from './elements/photoPanel'
 
 class Gallery extends Component {
 
@@ -10,16 +11,15 @@ class Gallery extends Component {
   render(){
 
     const panelDetails = instagramResponse.data.map((panel) => (
-        <div className="photo">
-          <img src={panel.images.standard_resolution.url} />
-        </div>
+        <PhotoPanel panel={panel} />
       )
     )
 
     return(
-      <div>
-        <p>Photo panel go here</p> 
-        {panelDetails}
+      <div className="container-fluid">
+        <div className="row">
+          {panelDetails}
+        </div>
       </div>
     )
   }

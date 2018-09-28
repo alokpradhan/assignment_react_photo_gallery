@@ -6,9 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Photo Gallery</h1>
-        </header>
+        <div className="app-header">
+          <h2 className="app-title">Photo Gallery</h2>
+        </div>
         <div className="App-intro">
           <Gallery />
         </div>

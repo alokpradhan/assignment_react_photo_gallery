@@ -1,5 +1,3 @@
-import React from 'react'
-
 // this is a giant JSON object you have received back from the Instagram API
 // Use it for good, solely on the front end, to create a photo gallery widget!
 

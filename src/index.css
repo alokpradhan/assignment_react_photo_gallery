@@ -5,6 +5,35 @@ body {
 }
 
 .photo {
-  height: 400px;
-  width: 300px;
+  width: 100%; 
+  height: 250px;
+}
+
+.photo-panel {
+  padding-top: 2em;
+  height: 450px;
+}
+
+.photo-panel-header p {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.photo-panel-footer p {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: left; 
+  margin-top: 8px;
+}
+
+.app-header {
+  height: 70px;
+}
+
+.app-title {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 20px;
 }
