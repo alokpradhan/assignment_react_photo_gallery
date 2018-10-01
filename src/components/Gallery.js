@@ -17,11 +17,11 @@ class Gallery extends Component {
     }
   }
 
-  onChangeInput = (event, imagesRendered) => {
+  onChangeInput = (event, imagesRendered, populatePages) => {
     this.setState({
       [event.target.name] : event.target.value,
       imageCount: imagesRendered,
-      page: 1
+      page: populatePages[0]
     })
   }
 
@@ -46,7 +46,7 @@ class Gallery extends Component {
       }
     )
 
-    const populatePages = () => {
+    const populatePages = (() => {
 
       let pageNumber = 0
 
@@ -66,7 +66,7 @@ class Gallery extends Component {
       }
 
       return pages
-    }
+    })()
 
     return(
       <div className="container-fluid">
@@ -75,8 +75,7 @@ class Gallery extends Component {
           options={filters}
           value={filter}
           onChange={(event) => {
-              this.onChangeInput(event, imagesRendered.count)
-              populatePages()
+              this.onChangeInput(event, imagesRendered.count, populatePages)
             }
           }
           imageCount={imagesRendered.count}
@@ -84,7 +83,7 @@ class Gallery extends Component {
 
         <PageSelector 
           name="page"
-          pageCount={Object.keys(populatePages())} 
+          pageCount={Object.keys(pages)} 
           value={page}
           onClick={this.onPageSelection}
         />
